@@ -1,0 +1,244 @@
+[
+  {
+    "heroSection": {
+      "webBanner": "https://i.ibb.co/6Bv8xvt/ro-water-purifier-banner.jpg",
+      "mobBanner": "https://i.ibb.co/PzGtmBB/ro-water-purifier-mobile-banner.jpg",
+      "title": "RO Service Center",
+      "heading": "Quality Water Purifier Repair & Servcies, on demand",
+      "description": "Experienced, hand-picked professionals to serve you at your doorstep"
+    },
+    "cities": [
+      {
+        "title": "Delhi NCR",
+        "landingUrl": "/delhi-ncr"
+      },
+      {
+        "title": "Ludhiana",
+        "landingUrl": "/ludhiana"
+      },
+      {
+        "title": "Kochi",
+        "landingUrl": "/kochi"
+      },
+      {
+        "title": "Kanpur",
+        "landingUrl": "/kanpur"
+      },
+      {
+        "title": "Agra",
+        "landingUrl": "/agra"
+      },
+      {
+        "title": "Bhopal",
+        "landingUrl": "/bhopal"
+      },
+      {
+        "title": "Guwahati",
+        "landingUrl": "/guwahati"
+      },
+      {
+        "title": "Vijayawada",
+        "landingUrl": "/vijayawada"
+      },
+      {
+        "title": "Varanasi",
+        "landingUrl": "/varanasi"
+      },
+      {
+        "title": "Coimbatore",
+        "landingUrl": "/coimbatore"
+      },
+      {
+        "title": "Thiruvananthapuram",
+        "landingUrl": "/thiruvananthapuram"
+      },
+      {
+        "title": "Patna",
+        "landingUrl": "/patna"
+      },
+      {
+        "title": "Raipur",
+        "landingUrl": "/raipur"
+      },
+      {
+        "title": "Nashik",
+        "landingUrl": "/nashik"
+      },
+      {
+        "title": "Jabalpur",
+        "landingUrl": "/jabalpur"
+      },
+      {
+        "title": "Jamshedpur",
+        "landingUrl": "/jamshedpur"
+      },
+      {
+        "title": "Dehradun",
+        "landingUrl": "/dehradun"
+      },
+      {
+        "title": "Meerut",
+        "landingUrl": "/meerut"
+      },
+      {
+        "title": "Ranchi",
+        "landingUrl": "/ranchi"
+      },
+      {
+        "title": "Prayagraj",
+        "landingUrl": "/prayagraj"
+      },
+      {
+        "title": "Amritsar",
+        "landingUrl": "/amritsar"
+      },
+      {
+        "title": "Gwalior",
+        "landingUrl": "/gwalior"
+      },
+      {
+        "title": "Kota",
+        "landingUrl": "/kota"
+      },
+      {
+        "title": "Aurangabad",
+        "landingUrl": "/aurangabad"
+      },
+      {
+        "title": "Mysore",
+        "landingUrl": "/mysore"
+      },
+      {
+        "title": "Guntur",
+        "landingUrl": "/guntur"
+      },
+      {
+        "title": "Cuttack",
+        "landingUrl": "/cuttack"
+      },
+      {
+        "title": "Udaipur",
+        "landingUrl": "/udaipur"
+      },
+      {
+        "title": "Ahmedabad",
+        "landingUrl": "/ahmedabad"
+      },
+      {
+        "title": "Bangalore",
+        "landingUrl": "/bangalore"
+      },
+      {
+        "title": "Chennai",
+        "landingUrl": "/chennai"
+      },
+      {
+        "title": "Chandigarh Tricity",
+        "landingUrl": "/chandigarh"
+      },
+      {
+        "title": "Jaipur",
+        "landingUrl": "/jaipur"
+      },
+      {
+        "title": "Hyderabad",
+        "landingUrl": "/hyderabad"
+      },
+      {
+        "title": "Kolkata",
+        "landingUrl": "/kolkata"
+      },
+      {
+        "title": "Mumbai",
+        "landingUrl": "/mumbai"
+      },
+      {
+        "title": "Pune",
+        "landingUrl": "/pune"
+      },
+      {
+        "title": "Nagpur",
+        "landingUrl": "/nagpur"
+      },
+      {
+        "title": "Visakhapatnam",
+        "landingUrl": "/visakhapatnam"
+      },
+      {
+        "title": "Vadodara",
+        "landingUrl": "/vadodara"
+      },
+      {
+        "title": "Lucknow",
+        "landingUrl": "/lucknow"
+      },
+      {
+        "title": "Bhubaneswar",
+        "landingUrl": "/bhubaneswar"
+      },
+      {
+        "title": "Surat",
+        "landingUrl": "/surat"
+      },
+      {
+        "title": "Indore",
+        "landingUrl": "/indore"
+      },
+      {
+        "title": "Rajahmundry",
+        "landingUrl": "/rajahmundry"
+      },
+      {
+        "title": "Madurai",
+        "landingUrl": "/madurai"
+      },
+      {
+        "title": "Jodhpur",
+        "landingUrl": "/jodhpur"
+      },
+      {
+        "title": "Kakinada",
+        "landingUrl": "/kakinada"
+      },
+      {
+        "title": "Warangal",
+        "landingUrl": "/warangal"
+      },
+      {
+        "title": "Sonipat",
+        "landingUrl": "/sonipat"
+      },
+      {
+        "title": "Panipat",
+        "landingUrl": "/panipat"
+      },
+      {
+        "title": "Karnal",
+        "landingUrl": "/karnal"
+      },
+      {
+        "title": "Rohtak",
+        "landingUrl": "/rohtak"
+      },
+      {
+        "title": "Alwar",
+        "landingUrl": "/alwar"
+      }
+    ],
+    "banner4": {
+      "title": "About Urban Cleaning Expert",
+      "description": "Urban Cleaning Expert is one of the most trusted service providers in India. We provide excellent services for several home appliance care, home care and Cleaning services. Our services are trusted by a large number of clients and Industries. It is the result of our dedicated teamwork, which makes us one of the most trusted service providers across the nation. Our company is staffed with expert and well-trained professionals who carry several years of experience with them and all of them work tirelessly to earn our customer satisfaction.",
+      "imgs": [
+        "https://i.ibb.co/wcYbqHW/banner-icon-1.jpg",
+        "https://i.ibb.co/2YKq8J6/banner-icon-2.jpg",
+        "https://i.ibb.co/9pVGjwy/banner-icon-3.jpg",
+        "https://i.ibb.co/znkGT7j/banner-icon-4.jpg"
+      ]
+    },
+    "banner5": {
+      "webImg": "https://i.ibb.co/SPq6Zt2/why-choose-us-banner.jpg",
+      "mobImg": "https://i.ibb.co/Vx1sW8M/why-choose-us-mob-banner.jpg",
+      "altText": "Urban Cleaning Expert Premium Services"
+    }
+  }
+]
