@@ -11,8 +11,8 @@ const CityHero = () => {
 
             <p className={styles.hero_head}>{heroSection.heading}</p>
             <ul>
-                {notes.map((note) => {
-                    return (<li className={styles.note}>{note}</li>)
+                {notes.map((note,index) => {
+                    return (<li className={styles.note} key={index}>{note}</li>)
                 })}
             </ul>
             </div>

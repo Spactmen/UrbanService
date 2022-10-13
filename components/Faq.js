@@ -21,7 +21,7 @@ const Faq = () => {
                             let question = element.question.split(": ")
                             let answer = element.answer.split(": ")
                             return (
-                                <div>
+                                <div  key={index}>
                                     <Accordion key={index} question={question} answer={answer}/>
                                 </div>
 

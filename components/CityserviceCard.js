@@ -18,7 +18,7 @@ const CityServiceCard = () => {
         <div className={styles.cards_section}>
             <div className={styles.cards_content}>
             {
-                serviceCards.length >1? serviceCards.map((card,index)=>{return <ServiceCard card={card}></ServiceCard>}): () => {return <h1>no data</h1>}
+                serviceCards.length >1? serviceCards.map((card,index)=>{return <ServiceCard card={card}  key={index}></ServiceCard>}): () => {return <h1>no data</h1>}
             }
                 
             </div>

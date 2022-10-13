@@ -98,7 +98,7 @@ const CityAmcCard = () => {
 
 
                             return (
-                                <div className={styles.border_div}>
+                                <div key={index} className={styles.border_div}>
                                     <div className={styles.amc_card}>
                                         <div className={styles.amc_card_img}>
                                             <Image loader={() => src} src={src} alt="amc_banner" width={16} height={9} layout="responsive" ></Image>

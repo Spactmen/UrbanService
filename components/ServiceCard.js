@@ -28,9 +28,9 @@ const ServiceCard = ({ card }) => {
                 <div className={styles.service_card_details}>
                     <p className={styles.service_card_title}>{card.title}</p>
                     {
-                        notes.map((note) => {
+                        notes.map((note,index) => {
                             return (
-                                <div className={styles.service_card_note}>
+                                <div  key={index} className={styles.service_card_note}>
                                     <Image src={check} width={15} height={15} alt="check"></Image>
                                     <p className={styles.service_card_description}>{note}</p>
                                 </div>)

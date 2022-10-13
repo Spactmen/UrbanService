@@ -17,15 +17,15 @@ const Reviews = () => {
                 {
                     reviews.map((review, index) => {
                         return (
-                            <div className={styles.reviews_section}>
+                            <div   key={index} className={styles.reviews_section}>
                                 <div className={styles.review_head}>
                                     <p className={styles.review_title}>{review.custName}</p> <p className={styles.review_date}>|</p>
                                     <p className={styles.review_datee}>25/03/2023</p>
-                                    <Image src={star} width={13} height={13} className={styles.star}></Image>
-                                    <Image src={star} width={13} height={13} ></Image>
-                                    <Image src={star} width={13} height={13} ></Image>
-                                    <Image src={star} width={13} height={13} ></Image>
-                                    <Image src={star} width={13} height={13} ></Image>
+                                    <Image src={star} width={13} height={13} className={styles.star} alt="star"></Image>
+                                    <Image src={star} width={13} height={13}  alt="star"></Image>
+                                    <Image src={star} width={13} height={13}  alt="star"></Image>
+                                    <Image src={star} width={13} height={13} alt="star" ></Image>
+                                    <Image src={star} width={13} height={13} alt="star" ></Image>
                                     <p className={styles.review_no}>(230)</p>
                                 </div>
                                 <div className={styles.review_description_div}>

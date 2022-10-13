@@ -73,7 +73,7 @@ const SpareParts = () => {
                             const spareParts = card.spareParts;
 
                             return (
-                                <div className={styles.border_div}>
+                                <div  key={index} className={styles.border_div}>
 
                                     <div className={styles.spare_card}>
                                         <div className={styles.spare_card_img}>
