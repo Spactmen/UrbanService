@@ -113,12 +113,12 @@ const CityAmcCard = () => {
                                                             <p className={styles.amc_card_cover_title}>{splittedCover[0]}</p>
                                                             {splittedCover[1] == "true" ?
                                                                 <div className={styles.amc_bio_div}>
-                                                                    <Image src={correct} width={15} height={15}></Image>
+                                                                    <Image src={correct} width={15} height={15}alt="tick" ></Image>
                                                                     <p className={styles.amc_bio}>include</p>
                                                                 </div>
                                                                 :
                                                                 <div className={styles.amc_bio_div}>
-                                                                    <Image src={wrong} width={15} height={15}></Image>
+                                                                    <Image src={wrong} width={15} height={15} alt="wrong"></Image>
                                                                     <p className={styles.amc_bio}>exclude</p>
                                                                 </div>
                                                             }

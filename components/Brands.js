@@ -17,7 +17,7 @@ const Brands = () => {
                     {brands.map((brand,index) => {
                         return (
                             <div className={styles.brand_img_div} key={index}>
-                                <Image src={brand} width={50} height={50} layout="responsive" className={styles.brand_img}></Image>
+                                <Image src={brand} width={50} height={50} layout="responsive" alt="image" className={styles.brand_img}></Image>
                             </div>
 
                         )
