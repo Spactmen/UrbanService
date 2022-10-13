@@ -1,0 +1,32 @@
+.head {
+  color: red;
+}
+
+.faq {
+  max-width: 1450px;
+  margin: 30px auto;
+}
+.faq_inner_div {
+  width: 69%;
+  margin-left: 4%;
+}
+
+.faq_content {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.faq_head {
+  font-family: var(--ff-last);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+@media (max-width:836px){
+  .faq_inner_div{
+      width: 93%;
+      /* margin-right: 3%; */
+  }
+}
+
+

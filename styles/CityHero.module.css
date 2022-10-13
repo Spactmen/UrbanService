@@ -1,0 +1,35 @@
+.hero_section{
+    max-width: 1450px;
+    margin: 0 auto;   
+}
+
+.hero_head{
+    padding: 8rem 0 0 8rem ;
+    font-family: var(--ff-last);
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: #ffff;
+    /* background-size: cover; */
+}
+
+.hero_section ul {
+    padding: 4rem 0 10rem 12rem;
+}
+.note{ 
+    font-family: var(--ff-last);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #ffff;
+    padding: 10px 0;
+}
+
+
+
+@media (max-width:500px) {
+    .hero_head {
+        padding: 8rem 0 0 4rem;
+    }
+    .hero_section ul {
+        padding: 3rem 0 8rem 6rem;
+    }
+}

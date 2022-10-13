@@ -1,0 +1,167 @@
+.amc_div {
+  max-width: 1450px;
+  margin: 30px auto;
+}
+
+.amc_inner_div {
+  width: 69%;
+  margin-left: 4%;
+}
+
+.amc_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.amc_head {
+  font-family: var(--ff-last);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.border_div{
+  border: 10px solid white;
+}
+.amc_card {
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 10px;
+  /* margin: 0 20px; */
+}
+.amc_card_head {
+  font-family: var(--ff-last);
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin: 5px 0 0 10px;
+}
+
+.amc_card_cover {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+  padding: 8px 10px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 6px;
+}
+
+.amc_card_cover_title {
+  font-family: var(--ff-last);
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.amc_bio_div {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.amc_bio {
+  font-family: var(--ff-last);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.slick-list {
+  border: 1px solid red;
+}
+.slick-active > div {
+ border: 10px solod white;
+}
+.slick-slide div  {
+  border: 10px solid white;
+}
+
+.btn_div{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.prev_btn {
+  cursor: pointer;
+  border: 0;
+  width: 40px;
+  height: 30px;
+  background: #efefef;
+  font-size: 2rem;
+  border-radius: 6px;
+border:1px solid black
+}
+.next_btn {
+  cursor: pointer;
+  border: 0;
+  width: 40px;
+  height: 30px;
+  border:1px solid black;
+  background: #efefef;
+  font-size: 2rem;
+  border-radius: 6px;
+}
+
+.amc_card_price_bio {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4% 0 5%;
+  padding: 4% 0 8% 0;
+}
+
+.amc_card_caution {
+  font-family: var(--ff-last);
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #123ba3;
+}
+
+.amc_card_price {
+  font-family: var(--ff-last);
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.amc_card_btn {
+  cursor: pointer;
+  font-family: var(--ff-last);
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 8px 9px;
+  color: #ffff;
+  background-color: #123ba3;
+  border: 0;
+  border-radius: 6%;
+}
+
+
+.modal{
+  color: white;
+  background-color: #123BA3;
+  border-radius: 6px;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  z-index: 10;
+}
+
+.modal_desc{
+  font-family: var(--ff-last);
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 10px 10px;
+  text-align:center ;
+}
+@media (max-width: 850px) {
+  .amc_inner_div {
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 2%;
+  }
+  .amc_div {
+    margin-top: 200px;
+  }
+}
