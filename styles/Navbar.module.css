@@ -110,18 +110,14 @@
   .menu_div ul {
     gap: 0.5%;
   }
-  /* .right_nav{
-        gap: 10px;
-    } */
+  
 }
 
 @media (max-width: 1060px) {
   .menu_div{
     display: none;
   }
-  /* .nav_middle{
-    height: 300px;
-  } */
+  
   .menu_div {
       position: fixed;
       left: -100%;
@@ -133,7 +129,7 @@
       transition: 0.3s;
       text-align: center;
       background-color: white;
-      height: 600px;
+      /* height: 600px; */
   }
 
   .menu_div.active{
