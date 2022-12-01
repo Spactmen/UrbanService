@@ -83,7 +83,8 @@
   background: #efefef;
   font-size: 2rem;
   border-radius: 6px;
-border:1px solid black
+border:1px solid black;
+  cursor: pointer;
 }
 .next_btn {
   border: 0;
@@ -93,6 +94,7 @@ border:1px solid black
   background: #efefef;
   font-size: 2rem;
   border-radius: 6px;
+    cursor: pointer;
 }
 
 

@@ -8,6 +8,8 @@ import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
 import spare1 from "../public/spare1.png";
 import { useRef } from "react";
+import { useState } from "react"
+
 
 
 const SpareParts = () => {
@@ -21,7 +23,6 @@ const SpareParts = () => {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 0,
-        // centerPadding:"100px",
         arrows: false,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
@@ -58,18 +59,19 @@ const SpareParts = () => {
             <div className={styles.spare_inner_div}>
                 <div className={styles.spare_content}>
                     <p className={styles.spare_head}>  Spare Parts Price with Brands </p>
-                    {/* <div className={styles.btn_div}>
+                    <div className={styles.btn_div}>
                         <button className={styles.prev_btn} onClick={() => slider?.current?.slickPrev()}>
                             &lt;
                         </button>
                         <button className={styles.next_btn} onClick={() => slider?.current?.slickNext()}>
                             &gt;
                         </button>
-                    </div> */}
+                    </div>
                 </div>
                 <div className={styles.slider}>
-                    <Slider {...settings} >
+                    <Slider ref={slider} {...settings} >
                         {spare_parts.map((card, index) => {
+                            
                             const spareParts = card.spareParts;
 
                             return (

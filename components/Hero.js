@@ -31,16 +31,10 @@ const Hero = () => {
                                 })
                             }
                         </select>
-                        <button className={styles.city_btn}><Link href={`/cities/${citylandingUrl}`}>Search</Link></button>
+                        <button className={styles.city_btn}><Link href={`/cities${citylandingUrl}`}>Search</Link></button>
                     </div>
                 </div>
-
-
-
-
             </div>
-
-
         </div>
     )
 }

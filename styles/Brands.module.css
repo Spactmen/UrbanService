@@ -40,7 +40,21 @@
 /* .brand_images:last-child{
     display: none;
 } */
+.decriptionLongDiv{
+  /* max-width: 1450px; */
+  margin: 2vw auto;
+  font-size: 1.7rem;
+  font-family: var(--ff-last);
+  text-align: left;
+  color: black;
+}
+.decriptionLongDiv p {
+  font-size: 1.7rem;
+  font-family: var(--ff-last);
 
+  text-align: left;
+  color: black;
+}
 
 @media (max-width:1055px) {
     .brand_images {

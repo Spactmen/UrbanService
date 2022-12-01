@@ -29,6 +29,7 @@
 }
 
 .dropdown {
+  /* position: fixed; */
   width: 90%;
   border: 1.50737px solid #e7e7e7;
   background-color: #ffffff;
