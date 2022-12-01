@@ -70,7 +70,7 @@ const quicklinks = (props) => {
                             {servingAreas.map((area, index) => {
                                 console.log(`/cities/${area.link.slice(1)}`)
                                 return (
-                                    <div>
+                                    <div key={index}>
                                         {index === 0 ? null : <span>•&nbsp;</span>}
                                         <a href={`/cities/${area.link.slice(1)}`} >{area.anchorText}&nbsp;</a>
                                         {/* <Link key={index} href={`/cities/${area.link.slice(1)}`}><li><span>{area.anchorText}</span></li></Link> */}
@@ -89,7 +89,7 @@ const quicklinks = (props) => {
 
                                 {availableAreas.map((area, index) => {
                                     return (
-                                        <div>
+                                        <div key={index}>
                                             {index === 0 ? null : <span>•&nbsp;</span>}
                                             <a href={`/cities/${area.link.slice(1)}`} >{area.anchorText}&nbsp;</a>
                                             {/* <Link key={index} href={`/cities/${area.link.slice(1)}`}><li><span>{area.anchorText}</span></li></Link> */}

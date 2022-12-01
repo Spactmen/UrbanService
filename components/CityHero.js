@@ -84,12 +84,12 @@ const CityHero = (props) => {
 
                     <Slider ref={slider}  {...settings} >
                         {
-                            offerBanner.map((banner) => {
+                            offerBanner.map((banner,index) => {
 
                                 const src = banner.imgUrl;
 
                                 return (
-                                    <div className={styles.offer_img_div}>
+                                    <div key={index} className={styles.offer_img_div}>
                                         <Image loader={() => src} alt="offer banner" className={styles.image} src={src} width={300} height={200}  ></Image>
                                     </div>
                                 )
