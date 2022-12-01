@@ -1,5 +1,6 @@
 .hero_section{
     max-width: 1450px;
+    /* height: 400px; */
     margin: 0 auto;   
 }
 
@@ -22,7 +23,23 @@
     color: #ffff;
     padding: 10px 0;
 }
+.offer_banner{
+    max-width: 1450px;
+    margin: 40px auto;   
+}
+.offer_img_div{
+    border: 10px solid white;
+    /* width: 200px;
+    height: 100px; */
+    /* height: fit-content; */
+}
+/* .bannner_div{ */
+    /* padding-left: 20px; */
+/* } */
+.image{
+    border-radius: 6px;
 
+}
 
 
 @media (max-width:500px) {

@@ -3,8 +3,9 @@ import landingJson from '../JSON/RO-landing.json'
 import ServiceCard from "./ServiceCard.js"
 
 
-const CityServiceCard = () => {
-    let cardSection = landingJson[0].cards
+const CityServiceCard = (props) => {
+    let {cityData} = {...props}
+    let cardSection = cityData[0].cards
     let serviceCards = []
     cardSection.forEach((card)=> {
         if(card.cardType === "service"){
@@ -18,7 +19,7 @@ const CityServiceCard = () => {
         <div className={styles.cards_section}>
             <div className={styles.cards_content}>
             {
-                serviceCards.length >1? serviceCards.map((card,index)=>{return <ServiceCard card={card}  key={index}></ServiceCard>}): () => {return <h1>no data</h1>}
+                serviceCards.length >1? serviceCards.map((card,index)=>{return <ServiceCard cityData={cityData} card={card}  key={index}></ServiceCard>}): () => {return <h1>no data</h1>}
             }
                 
             </div>

@@ -5,8 +5,8 @@ import Image from "next/image"
 import check from "../public/check.png"
 import { useState } from "react"
 
-const ServiceCard = ({ card }) => {
-    let cardSection = landingJson[0].cards
+const ServiceCard = ({ card,cityData}) => {
+    let cardSection = cityData[0].cards
     let serviceCards = []
     let notes = card.notes
     cardSection.forEach((card) => {
@@ -21,7 +21,6 @@ const ServiceCard = ({ card }) => {
     return (
         <div className={styles.service_card_content}>
             <div className={styles.service_card}>
-
                 <div className={styles.service_card_img}>
                     <Image loader={() => src} src={src} width={100} height={50} className={styles.image} layout="responsive" alt="service banner"></Image>
                 </div>

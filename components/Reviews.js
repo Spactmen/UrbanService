@@ -6,7 +6,6 @@ import star from "../public/star.png"
 const Reviews = () => {
 
     let reviews = landingJson[0].reviews
-    console.log(reviews)
 
     return (
         <div className={styles.reviews}>

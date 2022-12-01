@@ -6,9 +6,20 @@ import Link from 'next/link'
 import Hero from '../components/Hero'
 import Choice from '../components/Choice'
 import About from '../components/About'
+import Ro_common from "../JSON/RO-common.json"
+import Ro_routes from "../JSON/RO-routes.json"
+
+export const getServerSideProps = () => {
+  let citydata = Ro_common
+
+  return {
+      props: { cityData : citydata }
+  }
+}
 
 
-export default function Home() {
+export default function Home({cityData}) {
+  console.log("cityData is working")
   return (
     <div className={styles.container}>
       <Head>

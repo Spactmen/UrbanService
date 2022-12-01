@@ -1,7 +1,9 @@
 .footer_section {
   max-width: 1450px;
-  margin: 0 auto;
+  margin:  auto;
   background-color: #343434;
+  /* position: ; */
+  bottom: 0;
 }
 
 .footer_locations {

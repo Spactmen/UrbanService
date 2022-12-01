@@ -11,12 +11,13 @@ import SamplePrevArrow from "./SamplePrevArrow";
 import { useRef } from "react";
 import { useState } from "react"
 
-import { leftArrow } from "../public/left_arrow.png"
-import { rightArrow } from "../public/right_arrow.png"
+// import { leftArrow } from "../public/left_arrow.png"
+// import { rightArrow } from "../public/right_arrow.png"
 
-const CityAmcCard = () => {
+const CityAmcCard = (props) => {
+    let {cityData} = {...props}
 
-    let cardSection = landingJson[0].cards
+    let cardSection = cityData[0].cards
     let amcCards = []
     cardSection.forEach((card) => {
         if (card.cardType === "amc") {
@@ -101,7 +102,7 @@ const CityAmcCard = () => {
                                 <div key={index} className={styles.border_div}>
                                     <div className={styles.amc_card}>
                                         <div className={styles.amc_card_img}>
-                                            <Image loader={() => src} src={src} alt="amc_banner" width={16} height={9} layout="responsive" ></Image>
+                                            <Image loader={() => src} src={src} alt="amc_banner" width={16}  height={9} layout="responsive" ></Image>
                                         </div>
                                         <div className={styles.amc_card_content}>
                                             <p className={styles.amc_card_head}> {card.title} </p>
